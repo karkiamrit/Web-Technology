@@ -1,0 +1,85 @@
+<!Doctype html>
+<html>
+    <head>
+    <title>
+        Form in Table
+    </title>
+    </head>
+    <body>
+    <marquee direction="right" width="390" style="color: darkviolet;">Tabular Form</marquee>
+    <table border="3">
+    <form>
+        <tr>
+            <th colspan="6" style="color: deepskyblue;">Info</th>
+        </tr>
+        <tr>
+        <br><th><label for="firstname" style="color:indianred;">Firstname:</label></th>
+        <td ><input type="text" id="firstname" name="firstname" style="color:rgb(0, 13, 130);"></td>
+        </tr>
+        <tr>
+        <th><label for="lastname" style="color:indianred;">Lastname:</label><br></th>
+        <td><input type="text" id="lastname" name="lastname" style="color:rgb(0, 13, 130);"><br></td>
+        </tr>
+        <tr>
+        <th><label for="password" style="color:indianred;">Password:</label><br></th>
+        <td><input type="password" id="password"><br></td>
+        <tr>
+        <tr>    
+        </tr>
+        <th style="color:indianred;"><p><b>Gender:</b></p></th>
+        <td colspan="4"><label for="Male" style="color:indigo;">Male</label>
+        <input type="radio" id="Male" name="gender" value="Male" checked>
+        <label for="Female" style="color:indigo;">Female</label>
+        <input type="radio" id="Female" name="gender" value="Female"></td>
+        </tr>
+        <tr>
+        <th style="color:indianred;"><p><b>Occupation</b></p></th>
+        <td colspan="4"><label for="Student" style="color:indigo;">Student</label>
+        <input type="checkbox" id="Student" name="Occupation" value="Student" >
+        <label for="Employee" style="color:indigo;">Employee</label>
+        <input type="checkbox" id="Employee" name="Occupation" value="Employee">
+        <label for="Unemployed" style="color:indigo;">Unemployed</label>
+        <input type="checkbox" id="Unemployed" name="Occupation" value="Unemployed"></td>
+        </tr>
+        <tr>
+        <th><label for="email" style="color:indianred;">Email:</label></th>
+        <td colspan="4"><input type="email" id="Email" name="Email" style="color:rgb(0, 13, 130);"><br></td>
+        </tr>
+        <tr>
+        <th><br><label for="date" style="color:indianred;">Date Of Birth:</label></th>
+        <td colspan="4"><input type="date" id="date" name="date" style="color:rgb(0, 130, 113);"><br></td> 
+        </tr>
+        <th>
+            <label for="Province" style="color:indianred;">Province:</label></th>
+
+        <td><select id="Province" name="Province" size="">
+    <option value="Province 1" style="color:indigo;">Province 1</option>
+    <option value="Province 2" style="color:rgb(130, 0, 76);">Province 2</option>
+    <option value="Bagmati" style="color:rgb(0, 130, 22);">Bagmati</option>
+    <option value="Province 4" style="color:rgb(106, 130, 0);">Gandaki</option>
+    <option value="Province 5" style="color:rgb(130, 26, 0);">Lumbini</option>
+    <option value="Province 6" style="color:rgb(0, 13, 130);">Karnali</option>
+    <option value="Province 7" style="color:rgb(0, 130, 113);">Sudurpashchim</option>
+    </select></td>
+        </tr>
+        <tr>
+        <th colspan="6"><br><input type="submit" value="Submit">
+        <input type="reset" value="Reset"></th>
+        </tr>
+
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+    </form>
+    </table>
+    
+        
+    </body>
+</html>

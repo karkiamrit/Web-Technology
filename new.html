@@ -1,0 +1,53 @@
+<!Doctype html>
+<html>
+    <head>
+    <title>
+        CSS Box Model
+    </title>
+
+    <style>
+        .div
+        {
+                height: 200px;
+                width: 200px;
+                max-width: 400px;
+                min-width: 600px;
+                border-style: solid;
+                border-color: blue;
+                border-width: 2px;
+                margin: 10px;
+               /* overflow: hidden; text bahira gaye hidden gardinxa*/
+               border-radius: 100%;
+               box-shadow: 2px 2px -7px 5px chocolate;
+
+                /*padding*/
+                padding-left: 200px;
+                padding-right: 200px;
+
+        }
+        /* bordershorthand*/
+       h2{
+            border:2px dotted red;
+       } 
+       .test-div{
+            border-top-style: double;
+            height: 300px;
+            width: 300px;
+            border-bottom-style: double;
+            border-bottom-color: blueviolet;
+
+       }
+    </style>
+   
+    </head>
+    <body>
+   
+        <h2>CSS box model</h2>
+   <hr />
+        <div class="div">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi. Repellendus debitis doloribus illum architecto doloremque cum sequi magnam dolore ut, ducimus cupiditate corporis ex quasi deserunt neque sint et? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt illo, culpa quibusdam maxime asperiores nisi sit est dicta obcaecati, totam itaque? Repellendus assumenda nihil itaque aspernatur asperiores illum tempora iusto.</p>
+        </div>
+        <div class="div"></div>
+        <div class="test-div"></div>
+    </body>
+</html>
